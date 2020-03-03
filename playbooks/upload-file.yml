@@ -25,5 +25,5 @@
         insertafter: ''
         marker: "# {mark} ANSIBLE MANAGED BLOCK"
         content: |
-          conteudo edidato pelo ansible
+          conteudo editado pelo ansible
       when: upload_file is success
