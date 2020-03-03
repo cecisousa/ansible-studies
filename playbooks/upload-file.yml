@@ -23,7 +23,7 @@
         path: "{{file_dest}}/{{file_src}}"
         backup: true
         regexp: "development"
-        replace: production"
+        replace: "production"
       when: upload_file is success
 
     # - name: alterando conteudo arquivo
