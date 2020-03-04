@@ -1,0 +1,15 @@
+- name: Install Node App
+  hosts: aula
+  become: yes
+  tasks:
+    - name: 1. Create directory
+
+    - name: 2. Install unzip dependency
+
+    - name: 3. Download and unzip
+
+    - name: 4. Compile app
+
+    - name: 5. Install manager node pm2
+
+    - name: 6. Run app
